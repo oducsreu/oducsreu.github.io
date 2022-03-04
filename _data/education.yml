@@ -1,0 +1,37 @@
+- name: Old Dominion University, USA
+  logo: /assets/img/odu.png
+  degree: Ph.D.
+  major: Computer Science
+  term: Jan 2019 - Present
+  description: |-
+    I study and collaborate on research involving Data Science, Signal Processing, and Machine Learning.
+    I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ASD and ADHD.
+    As my dissertation project, I'm building a stream-oriented framework to create scientific workflows through visual programming and flow-based programming (Project:&nbsp;StreamingHub).
+  extra:
+    - key: GPA
+      value: 4.0
+    - key: Awards
+      value: Dominion Graduate Scholar (2019)
+    - key: Advisor
+      value: Dr. Sampath Jayarathna
+    - key: Key Courses
+      value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
+
+- name: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
+  degree: B.Sc.
+  major: Computer Science and Engineering
+  term: Jan 2015 - Dec 2018
+  description: |-
+    I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
+    As my thesis project I built a full-stack, event-driven, microservices framework for Java, with business modeling (Project:&nbsp;MSstack).
+  extra:
+    - key: GPA
+      value: 3.84
+    - key: Awards
+      value: Dean’s List (Semester 1,2,4,6-8)
+    - key: Advisor
+      value: Dr. Indika Perera
+    - key: Key Courses
+      value: Human Computer Interaction, Machine Learning, Advanced Algorithms, Data Mining & Information Retrieval, Distributed Systems
+
