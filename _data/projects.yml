@@ -139,12 +139,14 @@
     identifying specific content in an image or video, writing product descriptions, answering questions, writing a (good) review for a product to promote it, like/vote for a video on YouTube. 
     Workers known as crowdworkers browse the existing jobs, complete them and get paid for a rate set by the employer. The nature of the job helps crowdworkers to work remotely and get paid. 
     Detecting fraudulent reviews and review writers directed from crowdsourced results is vital and should be considered as a way to protect online communities.
-  objectives: |-
+    
+    Objectives: 
     The objective of this research project for students are, 
     - to learn the preliminary concepts in social computing,
     - to learn data and text mining, 
     - to identify user behavior patterns. 
     The students will learn methods and tools to choose a suspicious job post on a crowdsourced website, find and extract the target product on an online retailers, analyze the reviewers and reviews 
     on the product, use methods and tools to uncover whether a review is real or disinformed.
-  outcomes: |-
+    
+    Outcomes:
     Students will learn how to extract and analyze data and text from online platforms, rapid workers, Amazon Mechanical Turk, and identifying user behavior patterns.
