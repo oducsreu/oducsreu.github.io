@@ -1,228 +1,150 @@
-- title: XAI-Bacteria
-  term: 2021-Present
+- title: Did they really say that? 
   description: |-
-    Building interpretable deep learning algorithms for culture-free early detection of antibiotic drug resistant bacteria using Computer Vision and Quantitative Phase Microscopy (QPM).
-    Microscopic images of different bacteria strains are used to train Capsule-Network models with a smooth latent space representation.
-  technologies:
-    - Python
-    - TensorFlow
-    - SciPy
-    - NumPy
+    Screen captures (screencaps) of social media are a popular way to share quotes and attributions in social media. There are a number of reasons why screencaps might be used: to highlight someone's post without driving up their engagement numbers (impressions, retweets, clicks, etc.), to facilitate cross-platform sharing , or to share a post that is at risk of being edited or deleted. 
+    Unfortunately, sharing only an image of a post, especially from another platform, is an opportunity for disinformation. For example, Figure 1 shows two Facebook posts with screencaps: one is of a real Instagram post showing two potential hurricanes headed toward New Orleans, and the other is of a fake tweet (complete with one million retweets) about how much I love screencaps (I really don't).
+    
+    This fits in an emerging area we are calling Web Archiving Forensics, which includes establishing authenticity in a multi-archive environment (spoiler: Blockchain does not help). In particular we use web archives and social media to establish the probability of what public figures actually said (e.g., Joy Ann Reid's blog), did not say (e.g., a Utah Jazz fan), or 
+    said and then deleted (e.g., methods for surfacing deleted tweets and web pages deleted but not yet archived)
+  objectives: |-
+    The research goals for the students would include creating, evaluating, and sharing (e.g., via GitHub):
+    - a gold standard data set of authentic and inauthentic examples of social media screencaps,
+    - methods and tools for detecting and extracting structural metadata, and 
+    - methods and tools for providing a probability the screencap is either real or fake.
+  outcomes: |-
+    Students will learn: social media APIs; web crawling and page scraping; web archive APIs, including Memento and CDX;
+    and image processing, including OCRing and segmentation.
 
-- title: StreamingHub
-  term: 2019-Present
+- title: Protecting blind screen-reader users from deceptive content 
   description: |-
-    A stream-oriented framework to create scientific workflows through visual programming and flow-based programming.
-    It provides a web interface to create scientific workflows, connect to sensory data streams, pipe sensory data through workflows, and visualize analytics in real-time.
-    A repository of preset workflows is also provided for common use cases.
-    Additionally, it supports re-streaming of stored data into workflows, and generating synthetic data using stored data.
-  technologies:
-    - Node-RED
-    - Python
-    - Liblsl
-    - WebSockets
-    - Node
-    - TF.js
-    - Docker
-    - Kubernetes
-    - HTML
-    - JS
-    - CSS
+    To interact with web content, blind users rely on screen readers, a special-purpose assistive technology that narrates the contents 
+    of a webpage and also enables content navigation via keyboard shortcuts. Therefore, unlike sighted users, blind users cannot rely on visual cues 
+    (e.g., color, fake advertisement image, fake video) to identify deceptive online content such as advertisements, malicious links, product demos, 
+    etc. As a consequence, blind users are more susceptible to scams and attacks, as they are more likely to navigate to untrustworthy websites, 
+    download and install malicious software, and so on. In this project, we will develop novel interactive systems that leverage artificial intelligence 
+    based solutions to assist blind users in identifying and circumventing deceptive content. We will adapt and develop machine learning algorithms to 
+    automatically identify deceptive content. Specifically, we will extend our prior work on semantic analysis of webpage content to include automatic 
+    deceptive segment detection.
+  objectives: |-
+    The objectives of this project are: 
+    - to develop machine-learning models that can semantically analyze the webpage and identify deceptive content; and 
+    - to design, develop, and evaluate usable non-visual interfaces that leverage the developed machine learning models to assist blind users in avoiding deceptive content
+  outcomes: |-
+    Students will learn the importance of web accessibility, and how modern Al-based solutions can be leveraged to address the accessibility needs of 
+    people with visual disabilities, specifically regarding online security. They will be trained on how to build annotated datasets of webpages, train supervised 
+    machine learning models including deep neural networks, design and develop non-visual usable interfaces, design and conduct user studies for evaluation, 
+    and lastly, analyze and interpret user data collected from studies.
 
-- title: Robust PDFLinks
-  term: 2021
+- title: Protest or hate speech? The role of memes in refugee response
   description: |-
-    A web service to generate robust links for web  resources.
-    It allows to upload PDF documents, extract URLs from PDF annotations/text, invoke the Robust Links Service on URLs to preserve their content in web archives, and thereby generate robust links.
-    Upon generating robust links, their availability can be announced to external systems via Linked Data Notifications.
-    It also allows to view PDF documents side-by-side with robust links.
-  technologies:
-    - Python
-    - PyPDF2
-    - PDFIUM
-    - GRPBiD
-    - PDFMiner
-    - Flask
-    - Linked Data
-    - HTML
-    - JS
-    - CSS
+    Memes are cultural artifacts that spread and evolve from person to person. These can represent any number of things from 
+    jingles and fashion to hashtags and images. Political memes are sometimes regarded as a form of protest art. These images with simple text or hashtags convey 
+    disdain for different political viewpoints and can go viral on multiple social media platforms, but also contribute to disinformation. These digital, 
+    fleeting cultural artifacts not only contribute to modern political discourse, they shape individual and collective action, from protest movements to violence.
+    
+    As the world faces an unprecedented surge in refugees and increasing polarized political climates, political memes about refugees and refugee policies have real 
+    implications for human rights. Little research has been done to look at how viral memes, both pro- and anti-refugee, impact refugee response and policies. 
+    Our prior work using ftvitter and mobile phone data suggests that online sentiment correlates with real-world violence against Syrian refugees in Turkey . 
+  objectives: |-
+    Students will develop a measure of influence and political leaning of refugee-related memes, the definition of which they must creatively determine based on their understanding of the project
+  outcomes: |-
+    Students will learn to mine social media data, conduct sentiment analysis, and tie those computational skillsets with qualitative analyses of news articles, 
+    political speeches, and policy documents to try to understand how memes influence real-world politics. Students will identify pro- and anti- refugee memes 
+    tied to the same country, political debate, and/or incident. They will investigate, using a variety of digital and qualitative methods, to determine veracity, 
+    influence, political leaning, and real-world implications for political action/protest connected to the meme.
 
-- title: MGaze
-  term: 2020
+- title: Analyzing social media influence on research-to-practice
   description: |-
-    Collaborative project for webcam-based, multi-user eye tracking on the browser.
-    It eliminates the need for additional eye-tracking equipment by performing facial detection, facial landmarks detection, iris detection, and gaze estimation through webcam feeds.
-  technologies:
-    - MediaPipe
-    - TF.js
-    - Node
-    - Parcel
-    - HTML
-    - JS
-    - CSS
+    The research-to-practice pipeline is crucial to advance theory, inform treatment protocols, and identify public health solutions. The internet, digital technology, 
+    and social media have significantly changed how peer-reviewed empirical data is shared, publicized, and utilized. Changes in how health and science information is 
+    communicated to the public has had both negative and positive outcomes.
+    
+    The immediacy and availability of important scientific results can empower and engage specific patient populations through support and improved patient-physician 
+    relationships. However, social media platforms have introduced far-reaching dissemination and rapid influence of fake news to degree higher than verifiable news 
+    creating unique challenges for helping professions. These challenges include clarifying false rumors about disease outbreaks and vaccine safety, responding to 
+    unfounded skepticism about medical treatments, and addressing patient inaccuracies regarding recommended management protocols. There is a critical need to examine 
+    social media platforms impact on scientific practice for the helping professions as it relates to frequency of occurrence, mode and prevalence of exposure, 
+    role of confirmation bias, and impact on individual outcomes.
+  objectives: |-
+    Students will develop measures of transmission of medical disinformation on digital platforms and use computerized analytics to quantify the impact on college student's decision making. 
+    Students will identify messaging and transmission of health-related information (i.e., regarding medical, mental, or physical health) across a variety of social media platforms.
+  outcomes: |-
+    Students will learn to evaluate and define interprofessional themes and terminology, apply data extraction methods across a variety of social platforms, and analyze quantitative and qualitative data for themes and significant outcomes.
 
-- title: ASDetection
-  term: 2019
-  description: |-
-    Using EEG and Thermography data to predict a diagnosis of ASD.
-    Here, EEG signals were first pre-processed.
-    Simultaneously, features were extracted from Thermography data.
-    Next, a wavelet transformation was applied on each EEG signal to generate features.
-    Machine learning models were then trained from these features to predict a diagnosis of ASD.
-  technologies:
-    - TensorFlow
-    - Python
-    - Numpy
-    - Pandas
-    - PyWavelets
 
-- title: HACS
-  term: 2019
+- title: Human judgement during interactions with fake articles
   description: |-
-    Estimating the rate of change of the academic web using archived copies of web pages.
-    Here, archived copies are first obtained from the Internet Archive through its CDX Server API.
-    Next, for each web page, archived copies are analyzed to detect when changes have occurred.
-    These changes are then modeled as a poisson process, and used to predict when a page is likely to change in the future.
-  technologies:
-    - Python
-    - Internet Archive
-    - SciPy
-    - NumPy
-    - Pandas
+    With the ever increasing spread of disinformation on online platforms, there is a critical need to investigate the factors of human judgement during the interaction with 
+    scientific articles (truthfulness of articles). For example, research has shown that eye tracking technology can identify a variety of aspects that can relate to the 
+    learning process (e.g. moments of confusion, boredom, delight), as well as aspects about the cognition. In our prior work, we focused on gaining insight 
+    from the eye movements of novice readers while reading a scientific paper using multiple eye-tracking measures. We expanded this work in to study of eye-tracking measures 
+    during a reading task with the options for zooming and panning of the reading material with eye tracking techniques.
+    
+    The main goal of this project is to analyze unconstrained reading patterns of digital documents using eye movement fixations and dwell time on various sections of a 
+    digital document. We will focus on limiting false-positive key point matching between the on-screen content and a scientific paper content. This particularly useful 
+    when assessing the unconstrained reading patterns with less distinctive features such as images, charts, and tables.
+  objectives: |-
+    The goal of this research project is to use eye tracking techniques to record eye movement activities during reading tasks, study reading patterns of participants, 
+    investigate feature set to identify objective measurements to assess engagement with fake scientific articles. 
+  outcomes: |-
+    Students will develop experimental designs using eye tracking techniques to investigate how individuals assess the credibility of information, how they evaluate 
+    whether an information source is trustworthy, and how they identify and respond to disinformation. Students will learn how to process raw eye gaze data streamed 
+    from the eye tracker to our eye movements analytic pipeline to generate the traditional positional gaze and complex pupillometry measurements.
 
-- title: TheGPService
-  term: 2017
-  description: |-
-    Built a mobile application for making doctor consultations.
-    Re-structured cloud infrastructure on AWS to reduce costs.
-    Set up unified logging using AWS CloudWatch.
-    Created Dockerfiles and BitBucket Pipelines to build, test, and push build artifacts into AWS.
-    Provided development and production support for the web apps of The GP Service (UK) Ltd.
-      * Added single-sign-on capability to web portal.
-      * Upgraded web portal from Angular 2.x to 4.x.
-  technologies:
-    - React Native
-    - AWS
-    - Docker
-    - Docker-Compose
-    - Angular
-    - Spring Boot
-    - PostgreSQL
-    - OpenID-Connect
-    - OAuth2
-    - BitBucket
-    - HTML
-    - JS
-    - CSS
 
-- title: Containerized Deployment of Apache OODT
-  term: 2019
+- title: Spot bogus science stories and read news like a scientist
   description: |-
-    Created Dockerfiles for each core component in Apache OODT.
-    Added a Maven Archetype to auto-generate Dockerfiles and a Docker-Compose file when creating a new Apache OODT project.
-    Issue tracking was handled using JIRA, and documentation was written using Confluence.
-  technologies:
-    - Java
-    - Maven
-    - Docker
-    - Docker-Compose
-    - Avro
-    - Solr
-    - SLF4J
-    - JIRA
-    - Confluence
+    Public digital media can often mix factual information with fake scientific news. One example is the article posted on NatureNews.com titled "Don't Look Now, But Arctic Sea 
+    Ice Mass Has Grown Almost 40% Since 2012" , which attempted to cast doubt on the scientific veracity of global warming. These scientific news articles create illusions and 
+    misconceptions and ultimately influence the public opinion with serious consequences. Most fact-checking services, such as Snopes.com, trace provenance through laborious, 
+    fully manual web browsing, and cross-verification procedures.
+    
+    In this project, students will investigate machine learning and deep learning-based methods to automatically find evidence of scientific disinformation from a large collection 
+    of scientific publications. The work will be based on existing methods and datasets we published in 2019. Students will have opportunities to perform a full stack project from 
+    data compilation, model training, evaluation, writing reports, and presentation.
+  objectives: |-
+    The objective is to develop an effective model to recommend relevant scientific articles that help readers to better assess the credibility of scientific news. Specifically, 
+    students will investigate whether encoding and querying different parts of a news article, instead of the whole article, will return better results. The research will shed light 
+    on the model to improve the document query accuracy from the query's perspective and narrow down the relevancy granularity level from documents to paragraphs.
+  outcomes: |-
+    Students will learn how to convert a real-world problem to a fundamental machine learning problem, e.g., a classification problem. They will be trained on how to collect and
+     preprocess scientific news data from another data release and apply pre-trained models and neural search engines to facilitate fake scientific news detection.
 
-- title: MSstack
-  term: 2018
-  description: |-
-    A full-stack, event-driven, microservices framework for Java, with business modeling.
-    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
-    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
-    It also facilitates generating boilerplate code from Business Process Models.
-  technologies:
-    - Java
-    - Netty
-    - Kafka
-    - Zookeeper
-    - Curator
-    - Git
 
-- title: Semantic-KB
-  term: 2017
+- title: Discovering the traces of disinformation on Instagram
   description: |-
-    Internship project at WSO2 Lanka (PVT) Ltd to automate question answering in WSO2 Support portal.
-    Created a document index using ElasticSearch, a reinforcement learning model using TensorFlow to predict document-query relevance, and a search interface using HTML, JS, and CSS.
-  technologies:
-    - ElasticSearch
-    - TensorFlow
-    - PostgreSQL
-    - NLTK
-    - Scrapy
-    - Flask
-    - Python
-    - DialogFlow
-    - HTML
-    - JS
-    - CSS
+    Metadata about social media accounts (e.g., follower counts) and posts (e.g., likes, shares) has been used to identify potential sources of disinformation.
+    Twitter has been well-studied, but other platforms, like Instagram, have been shown to also be effective targets of disinformation campaigns. 
+    Students will investigate disinformation campaigns on Instagram and develop methods for accessing and analyzing historical metadata of Instagram accounts and posts using web archives. 
+    Providing this metadata to users will help them become more discerning consumers of information shared on social media. Dr. Weigle has been supervising research on this topic by a 
+    current graduate student, Himarsha Jayanetti, who has begun investigation of how well Instagram pages are covered in public web archives. Students on this project would work directly
+     with Ms. Jayanetti and Dr. Weigle to extend this work, focusing on accounts and posts disseminating disinformation. Dr. Weigle has researcher access to CrowdTangle for this project, 
+     which has been used to discover sources of disinformation on Instagram.
+  objectives: |-
+    The objective of this project is to develop methods for gathering and providing important metadata about potential sources of disinformation to Instagram users. The techniques developed 
+    can also be applied to other social media platforms to provide support for other projects at this REU Site.
+  outcomes: |-
+    Students will gain experience with both technological and sociological aspects of social media, including how Instagram pages are delivered to browsers, how to mine web archives for 
+    historical metadata, and the techniques of those who spread disinformation. Students will gain immediate practical knowledge in Python, R, how to use Web APIs, and how to develop 
+    effective visualizations from their collected data.
 
-- title: DengAI
-  term: 2017
-  description: |-
-    A competition hosted by DrivenData, to model the spread of Dengue using weather and geographical information.
-    Built a machine learning model that ranked #1 in 2017.
-  technologies:
-    - Python
-    - Scikit-Learn
-    - Pandas
-    - WEKA
 
-- title: TourMate
-  term: 2017
+- title: Uncovering disinformation in crowdsourced reviews
   description: |-
-    A web platform aimed at tourists and tour providers.
-    Tourists can discover tour services and make reservations, while tour providers can post and advertise their services.
-  technologies:
-    - Express.JS
-    - Node
-    - MongoDB
-    - React
-    - Git
-    - HTML
-    - JS
-    - CSS
-
-- title: Raven
-  term: 2016
-  description: |-
-    A real-time customer satisfaction monitoring framework for the hospitality industry.
-    It uses camera feeds to detect customer faces, analyze their emotions, and provide satisfaction ratings and dissatisfaction alerts in real-time.
-  technologies:
-    - Microsoft Emotion API
-    - C#
-    - Git
-
-- title: Onion
-  term: 2016
-  description: |-
-    A Point-of-Sales, Inventory, Reporting, Loan, and Payroll System for Dambulla Dedicated Economic Centre, Sri Lanka
-  technologies:
-    - C#
-    - WPF
-    - MySQL
-    - Dapper ORM
-    - VSTS
-
-- title: MusicSchool
-  term: 2016
-  description: |-
-    A web platform to manage information of a medium sized music school.
-    It supports classroom management, progress tracking, attendance, and payroll.
-  technologies:
-    - PHP
-    - Laravel
-    - jQuery
-    - MySQL
-    - HTML
-    - JS
-    - CSS
+    Description Online platforms lay an important role in our daily life. Before you buy a product on Amazon, you look at the rating of that product, read the reviews and pay attention 
+    to what people said about that product. When you want to go out for a dinner, you read the reviews n that restaurant before you make the decision which restaurant you are willing to choose. 
+    When you want to watch a movie, you read the reviews on that movie. When you want to choose your new doctor, you read the reviews on web about her/him. When you want to download a new 
+    application on your phone, you look at the ratings for that specific application. User reviews are very important as they impact our decisions. Fraudulent or mis-informed reviews can degrade the trust in online platforms.
+    
+    Crowdsourcing websites use Internet to hire individuals remotely located to perform on-demand tasks. Businesses usually post jobs known as Human Intelligence Tasks (HITs), such as a survey, 
+    identifying specific content in an image or video, writing product descriptions, answering questions, writing a (good) review for a product to promote it, like/vote for a video on YouTube. 
+    Workers known as crowdworkers browse the existing jobs, complete them and get paid for a rate set by the employer. The nature of the job helps crowdworkers to work remotely and get paid. 
+    Detecting fraudulent reviews and review writers directed from crowdsourced results is vital and should be considered as a way to protect online communities.
+  objectives: |-
+    The objective of this research project for students are, 
+    - to learn the preliminary concepts in social computing,
+    - to learn data and text mining, 
+    - to identify user behavior patterns. 
+    The students will learn methods and tools to choose a suspicious job post on a crowdsourced website, find and extract the target product on an online retailers, analyze the reviewers and reviews 
+    on the product, use methods and tools to uncover whether a review is real or disinformed.
+  outcomes: |-
+    Students will learn how to extract and analyze data and text from online platforms, rapid workers, Amazon Mechanical Turk, and identifying user behavior patterns.
