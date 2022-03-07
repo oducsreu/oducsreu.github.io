@@ -4,22 +4,29 @@ title: Mentors
 ---
 {% for mentor in site.data.mentors %}
 <table>
-    <tr>
-      <td style="display: flex; align-items: flex-start; padding-bottom: 1em;">
-        <div style="width: 40em; height: 10em; padding: 0.5em; margin-left: 0; padding-left: 0;">
-          <!-- <img src="{{ mentor.image | relative_url }}"> -->
-          <!-- <img style="width: 100%; height: 100%;" src="{{ mentor.image | relative_url }}"> -->
-          <img style="width:180px;height:170px;" src="{{ mentor.image | relative_url }}">
-        </div>
-        <div style="padding: 0.5em;">
-          <!-- <div style="font-size: 1.5em;">{{ mentor.name }}</div> -->
-          <a href={{ mentor.homepage }}>{{ mentor.name }}</a>
-          <div style="font-size: 1.2em;">{{ mentor.designation }}</div>
-          <div style="font-size: 1.2em;">{{ mentor.affiliation }}</div>
-          <!-- <div style="font-size: 1.0em;">{{ mentor.about }}</div> -->
-          <a href="mailto:{{ mentor.email }}">{{ mentor.email }}</a>
-        </div>
-      </td>
-    </tr>
+  <tr>
+    <td width="30%" style="border-right: hidden;">
+      <div style="padding: 0.5em; margin-left: 0; padding-left: 0;">
+        <!-- <img src="{{ mentor.image | relative_url }}"> -->
+        <!-- <img style="width: 100%; height: 100%;" src="{{ mentor.image | relative_url }}"> -->
+        <img style="width:135px;height:170px;" src="{{ mentor.image | relative_url }}">
+      </div>
+    </td>
+    <td width="70%">
+      <div style="padding: 0.5em;">
+        <!-- <div style="font-size: 1.5em;">{{ mentor.name }}</div> -->
+        <a href={{ mentor.homepage }}>{{ mentor.name }}</a>
+        <div style="font-size: 1em;">{{ mentor.designation }}</div>
+        <div style="font-size: 1em;">{{ mentor.affiliation }}</div>
+        <a href="mailto:{{ mentor.email }}">{{ mentor.email }}</a>
+<!--        <div style="font-size: 1em;"></div>-->
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: justify" colspan="3">
+      <div style="font-size: 1.0em;">{{ mentor.about }}</div>
+    </td>
+  </tr>
 </table>
 {% endfor %}
