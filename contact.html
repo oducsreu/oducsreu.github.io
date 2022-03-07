@@ -2,3 +2,15 @@
 layout: default
 title: Contact
 ---
+{% for contact in site.data.contact %}
+<table>
+    <tr>
+        <td style="text-align: justify;">
+            <a href={{ mentor.homepage }}>{{ contact.name }}</a>
+            <div style="font-size: 1em;">{{ contact.designation }}</div>
+            <div style="font-size: 1em;">{{ contact.affiliation }}</div>
+            <a href="mailto:{{ mentor.email }}">{{ contact.email }}</a>
+        </td>
+    </tr>
+</table>
+{% endfor %}
