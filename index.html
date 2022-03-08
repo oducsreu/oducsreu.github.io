@@ -69,6 +69,22 @@ layout: default
         </td>
     </tr>
 </table>
+<table>
+    <tr>
+        <td style="border: hidden; text-align: justify">
+            <div style="padding: 0.5em;">
+                <p> {{ site.data.info.description_1 }} </p>
+                <p> {{ site.data.info.description_2 }} </p>
+                <ol>
+                {% for objective in site.data.info.objective_list %}
+                <li> {{ objective.objective }}</li>
+                    {% endfor %}
+                </ol>
+                <p> {{ site.data.info.goal }} </p>
+            </div>
+        </td>
+    </tr>
+</table>
 <!-- <table>
   <tr>
     <td style="display: flex; align-items: flex-start; padding-bottom: 1em;">
