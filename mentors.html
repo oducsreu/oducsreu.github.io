@@ -9,7 +9,13 @@ title: Mentors
       <div style="padding: 0.5em; margin-left: 0; padding-left: 0;">
         <!-- <img src="{{ mentor.image | relative_url }}"> -->
         <!-- <img style="width: 100%; height: 100%;" src="{{ mentor.image | relative_url }}"> -->
-        <img style="width:135px;height:170px;" src="{{ mentor.image | relative_url }}">
+        {%- if mentor.name == "Dr. Vikas G. Ashok" -%}
+        <img style="width:130px;height:170px; object-fit: cover; object-position: 50% -20%;" src="{{ mentor.image | relative_url }}">
+        {%- else if mentor.name == "Dr. Faryaneh Poursardar" -%}
+        <img style="width:120px;height:170px;" src="{{ mentor.image | relative_url }}">
+        {%- else -%}
+        <img style="width:130px;height:170px;" src="{{ mentor.image | relative_url }}">
+        {%- endif -%}
       </div>
     </td>
     <td width="70%">
@@ -24,8 +30,8 @@ title: Mentors
     </td>
   </tr>
   <tr>
-    <td style="text-align: justify" colspan="3">
-      <div style="font-size: 1.0em;">{{ mentor.about }}</div>
+    <td style="text-align: left" colspan="3">
+      <div style="font-size: 1.0em;">{{ mentor.expertise }}</div>
     </td>
   </tr>
 </table>
