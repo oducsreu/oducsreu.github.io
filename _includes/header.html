@@ -3,7 +3,11 @@
     position: fixed;
     left: 0;
     right: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+  }
+  a.page-link {
+    color: #00325b !important;
+    font-weight: 600 !important;
   }
 </style>
 
@@ -13,7 +17,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <img style="height:45px;" src="assets/odu-logo.png">&nbsp
+      <img style="height:42px;" src="assets/odu-logo.png">&nbsp
 <!--      <a class="site-title"  style="font-size: 16pt;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
     </a>
 
