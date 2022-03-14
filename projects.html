@@ -2,12 +2,20 @@
 layout: default
 title: Projects
 ---
-{% for project in site.data.projects %}
+<ul>
+  {% for project in site.data.projects %}
+  <li>
+    <a href="#{{ project.title | slugify }}">{{ project.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
 <table>
   <tbody>
     <tr class="header">
       <td>
-        <strong>{{ project.title }}</strong>
+        <strong id="{{ project.title | slugify }}">{{ project.title }}</strong>
+        <!-- <a ><strong>{{ project.title }}</strong></a> -->
         <!-- <span style="font-weight: 400;"><small>({{ project.term }})</small></span> -->
         <br />
         {% for t in project.technologies %}
@@ -22,4 +30,4 @@ title: Projects
     </tr>
   </tbody>
 </table>
-{% endfor %}
+
