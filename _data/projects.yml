@@ -6,14 +6,12 @@
     This fits in an emerging area we are calling Web Archiving Forensics, which includes establishing authenticity in a multi-archive environment (spoiler: Blockchain does not help). In particular we use web archives and social media to establish the probability of what public figures actually said (e.g., Joy Ann Reid's blog), did not say (e.g., a Utah Jazz fan), or 
     said and then deleted (e.g., methods for surfacing deleted tweets and web pages deleted but not yet archived)
 
-    ***Objectives:*** 
-
     The research goals for the students would include creating, evaluating, and sharing (e.g., via GitHub):
     - a gold standard data set of authentic and inauthentic examples of social media screencaps,
     - methods and tools for detecting and extracting structural metadata, and 
     - methods and tools for providing a probability the screencap is either real or fake.
 
-    ***Outcomes:***
+    ***Student Learning Outcomes:***
 
     Students will learn: social media APIs; web crawling and page scraping; web archive APIs, including Memento and CDX;
     and image processing, including OCRing and segmentation.
@@ -29,13 +27,11 @@
     automatically identify deceptive content. Specifically, we will extend our prior work on semantic analysis of webpage content to include automatic 
     deceptive segment detection.
 
-    ***Objectives:***
-
     The objectives of this project are: 
     - to develop machine-learning models that can semantically analyze the webpage and identify deceptive content; and 
     - to design, develop, and evaluate usable non-visual interfaces that leverage the developed machine learning models to assist blind users in avoiding deceptive content
 
-    ***Outcomes:***
+    ***Student Learning Outcomes:***
 
     Students will learn the importance of web accessibility, and how modern Al-based solutions can be leveraged to address the accessibility needs of 
     people with visual disabilities, specifically regarding online security. They will be trained on how to build annotated datasets of webpages, train supervised 
@@ -53,11 +49,9 @@
     implications for human rights. Little research has been done to look at how viral memes, both pro- and anti-refugee, impact refugee response and policies. 
     Our prior work using ftvitter and mobile phone data suggests that online sentiment correlates with real-world violence against Syrian refugees in Turkey . 
 
-    ***Objectives:***
-
     Students will develop a measure of influence and political leaning of refugee-related memes, the definition of which they must creatively determine based on their understanding of the project
 
-    ***Outcomes:***
+    ***Student Learning Outcomes:***
 
     Students will learn to mine social media data, conduct sentiment analysis, and tie those computational skillsets with qualitative analyses of news articles, 
     political speeches, and policy documents to try to understand how memes influence real-world politics. Students will identify pro- and anti- refugee memes 
@@ -77,12 +71,10 @@
     social media platforms impact on scientific practice for the helping professions as it relates to frequency of occurrence, mode and prevalence of exposure, 
     role of confirmation bias, and impact on individual outcomes.
 
-    ***Objectives:***
-
     Students will develop measures of transmission of medical disinformation on digital platforms and use computerized analytics to quantify the impact on college student's decision making. 
     Students will identify messaging and transmission of health-related information (i.e., regarding medical, mental, or physical health) across a variety of social media platforms.
 
-    ***Outcomes:***
+    ***Student Learning Outcomes:***
 
     Students will learn to evaluate and define interprofessional themes and terminology, apply data extraction methods across a variety of social platforms, and analyze quantitative and qualitative data for themes and significant outcomes.
 
@@ -99,12 +91,10 @@
     digital document. We will focus on limiting false-positive key point matching between the on-screen content and a scientific paper content. This particularly useful 
     when assessing the unconstrained reading patterns with less distinctive features such as images, charts, and tables.
 
-    ***Objectives:***
-
     The goal of this research project is to use eye tracking techniques to record eye movement activities during reading tasks, study reading patterns of participants, 
     investigate feature set to identify objective measurements to assess engagement with fake scientific articles. 
 
-    ***Outcomes:***
+    ***Student Learning Outcomes:***
 
     Students will develop experimental designs using eye tracking techniques to investigate how individuals assess the credibility of information, how they evaluate 
     whether an information source is trustworthy, and how they identify and respond to disinformation. Students will learn how to process raw eye gaze data streamed 
@@ -122,38 +112,32 @@
     of scientific publications. The work will be based on existing methods and datasets we published in 2019. Students will have opportunities to perform a full stack project from 
     data compilation, model training, evaluation, writing reports, and presentation.
   
-    ***Objectives:***
-
     The objective is to develop an effective model to recommend relevant scientific articles that help readers to better assess the credibility of scientific news. Specifically, 
     students will investigate whether encoding and querying different parts of a news article, instead of the whole article, will return better results. The research will shed light 
     on the model to improve the document query accuracy from the query's perspective and narrow down the relevancy granularity level from documents to paragraphs.
 
-    ***Outcomes:***
+     ***Student Learning Outcomes:***
 
-    Students will learn how to convert a real-world problem to a fundamental machine learning problem, e.g., a classification problem. They will be trained on how to collect and
-     preprocess scientific news data from another data release and apply pre-trained models and neural search engines to facilitate fake scientific news detection.
+    Students will learn how to convert a real-world problem to a fundamental machine learning problem. They will be trained on how to collect and preprocess scientific news data from 
+    another data release and apply state-of-the-art models and neural search engines to facilitate fake scientific news detection.
 
 
 - title: Discovering the traces of disinformation on Instagram
   description: |-
-    Metadata about social media accounts (e.g., follower counts) and posts (e.g., likes, shares) has been used to identify potential sources of disinformation.
-    Twitter has been well-studied, but other platforms, like Instagram, have been shown to also be effective targets of disinformation campaigns. 
+    Metadata about social media accounts (e.g., follower counts) and posts (e.g., likes, shares) has been used to identify potential sources of disinformation. Twitter has been well-studied, 
+    but other platforms, specifically Instagram, have been shown to also be effective targets of disinformation campaigns.
     Students will investigate disinformation campaigns on Instagram and develop methods for accessing and analyzing historical metadata of Instagram accounts and posts using web archives. 
-    Providing this metadata to users will help them become more discerning consumers of information shared on social media. Dr. Weigle has been supervising research on this topic by a 
-    current graduate student, Himarsha Jayanetti, who has begun investigation of how well Instagram pages are covered in public web archives. Students on this project would work directly
-     with Ms. Jayanetti and Dr. Weigle to extend this work, focusing on accounts and posts disseminating disinformation. Dr. Weigle has researcher access to CrowdTangle for this project, 
-     which has been used to discover sources of disinformation on Instagram.
-
-    ***Objectives:***
-
-    The objective of this project is to develop methods for gathering and providing important metadata about potential sources of disinformation to Instagram users. The techniques developed 
-    can also be applied to other social media platforms to provide support for other projects at this REU Site.
+    Providing this metadata to users will help them become more discerning consumers of information shared on social media. We have a current graduate student who has begun an investigation 
+    of how well Instagram pages are covered in public web archives. Students on this project would be extending this work, focusing on accounts and posts disseminating disinformation. 
     
-    ***Outcomes:***
+    The objective of this project is to develop methods for gathering and providing important metadata about potential sources of disinformation to Instagram users. The techniques 
+    developed can also be applied to other social media platforms to provide support for other projects at this REU Site.
+    
+    ***Student Learning Outcomes:***
 
-    Students will gain experience with both technological and sociological aspects of social media, including how Instagram pages are delivered to browsers, how to mine web archives for 
-    historical metadata, and the techniques of those who spread disinformation. Students will gain immediate practical knowledge in Python, R, how to use Web APIs, and how to develop 
-    effective visualizations from their collected data.
+    Students will gain experience with both technological and sociological aspects of social media, including how Instagram pages are delivered to browsers, 
+    how to mine web archives for historical metadata, and the techniques of those who spread disinformation. Students will gain immediate practical knowledge 
+    Python, R, how to use Web APIs, and how to develop effective visualizations from their collected data.
 
 
 - title: Uncovering disinformation in crowdsourced reviews
@@ -167,8 +151,6 @@
     identifying specific content in an image or video, writing product descriptions, answering questions, writing a (good) review for a product to promote it, like/vote for a video on YouTube. 
     Workers known as crowdworkers browse the existing jobs, complete them and get paid for a rate set by the employer. The nature of the job helps crowdworkers to work remotely and get paid. 
     Detecting fraudulent reviews and review writers directed from crowdsourced results is vital and should be considered as a way to protect online communities.
-    
-    ***Objectives:***
 
     The objective of this research project for students are, 
     - to learn the preliminary concepts in social computing,
@@ -177,6 +159,6 @@
     The students will learn methods and tools to choose a suspicious job post on a crowdsourced website, find and extract the target product on an online retailers, analyze the reviewers and reviews 
     on the product, use methods and tools to uncover whether a review is real or disinformed.
     
-    ***Outcomes:***
+     ***Student Learning Outcomes:***
 
     Students will learn how to extract and analyze data and text from online platforms, rapid workers, Amazon Mechanical Turk, and identifying user behavior patterns.
