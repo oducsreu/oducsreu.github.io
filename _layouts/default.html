@@ -8,6 +8,33 @@
 
 {%- include head.html -%}
 
+<style>
+  .button {
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid #0a5ab2;
+    background: none;
+    color: #0a5ab2;
+  }
+
+  .button:hover {
+    background: #0a5ab2;
+    color: white;
+  }
+
+  .button:active {
+    background: #003087;
+  }
+
+  html {
+    overflow: scroll;
+    scroll-padding-top: 70px !important;
+  }
+</style>
+
 <body>
 
   {%- include header.html -%}
