@@ -1,4 +1,4 @@
-- title: Did they really say that? 
+- title: Did they really say that? (Dr. Nelson)
   description: |-
     Screen captures (screencaps) of social media are a popular way to share quotes and attributions in social media. There are a number of reasons why screencaps might be used: to highlight someone's post without driving up their engagement numbers (impressions, retweets, clicks, etc.), to facilitate cross-platform sharing , or to share a post that is at risk of being edited or deleted. 
     Unfortunately, sharing only an image of a post, especially from another platform, is an opportunity for disinformation. For example, Figure 1 shows two Facebook posts with screencaps: one is of a real Instagram post showing two potential hurricanes headed toward New Orleans, and the other is of a fake tweet (complete with one million retweets) about how much I love screencaps (I really don't).
@@ -16,7 +16,7 @@
     Students will learn: social media APIs; web crawling and page scraping; web archive APIs, including Memento and CDX;
     and image processing, including OCRing and segmentation.
 
-- title: Protecting blind screen-reader users from deceptive content 
+- title: Protecting blind screen-reader users from deceptive content (Dr. Ashok)
   description: |-
     To interact with web content, blind users rely on screen readers, a special-purpose assistive technology that narrates the contents 
     of a webpage and also enables content navigation via keyboard shortcuts. Therefore, unlike sighted users, blind users cannot rely on visual cues 
@@ -38,7 +38,7 @@
     machine learning models including deep neural networks, design and develop non-visual usable interfaces, design and conduct user studies for evaluation, 
     and lastly, analyze and interpret user data collected from studies.
 
-- title: Protest or hate speech? The role of memes in refugee response
+- title: Protest or hate speech? The role of memes in refugee response (Dr. Frydenlund)
   description: |-
     Memes are cultural artifacts that spread and evolve from person to person. These can represent any number of things from 
     jingles and fashion to hashtags and images. Political memes are sometimes regarded as a form of protest art. These images with simple text or hashtags convey 
@@ -58,7 +58,7 @@
     tied to the same country, political debate, and/or incident. They will investigate, using a variety of digital and qualitative methods, to determine veracity, 
     influence, political leaning, and real-world implications for political action/protest connected to the meme.
 
-- title: Analyzing social media influence on research-to-practice
+- title: Analyzing social media influence on research-to-practice (Dr. Perrotti)
   description: |-
     The research-to-practice pipeline is crucial to advance theory, inform treatment protocols, and identify public health solutions. The internet, digital technology, 
     and social media have significantly changed how peer-reviewed empirical data is shared, publicized, and utilized. Changes in how health and science information is 
@@ -79,7 +79,7 @@
     Students will learn to evaluate and define interprofessional themes and terminology, apply data extraction methods across a variety of social platforms, and analyze quantitative and qualitative data for themes and significant outcomes.
 
 
-- title: Human judgement during interactions with fake articles
+- title: Human judgement during interactions with fake articles (Dr. Jayarathna)
   description: |-
     With the ever increasing spread of disinformation on online platforms, there is a critical need to investigate the factors of human judgement during the interaction with 
     scientific articles (truthfulness of articles). For example, research has shown that eye tracking technology can identify a variety of aspects that can relate to the 
@@ -101,7 +101,7 @@
     from the eye tracker to our eye movements analytic pipeline to generate the traditional positional gaze and complex pupillometry measurements.
 
 
-- title: Spot bogus science stories and read news like a scientist
+- title: Spot bogus science stories and read news like a scientist (Dr. Wu)
   description: |-
     Public digital media can often mix factual information with fake scientific news. One example is the article posted on NatureNews.com titled "Don't Look Now, But Arctic Sea 
     Ice Mass Has Grown Almost 40% Since 2012" , which attempted to cast doubt on the scientific veracity of global warming. These scientific news articles create illusions and 
@@ -122,7 +122,7 @@
     another data release and apply state-of-the-art models and neural search engines to facilitate fake scientific news detection.
 
 
-- title: Discovering the traces of disinformation on Instagram
+- title: Discovering the traces of disinformation on Instagram (Dr. Weigle)
   description: |-
     Metadata about social media accounts (e.g., follower counts) and posts (e.g., likes, shares) has been used to identify potential sources of disinformation. Twitter has been well-studied, 
     but other platforms, specifically Instagram, have been shown to also be effective targets of disinformation campaigns.
@@ -140,7 +140,7 @@
     Python, R, how to use Web APIs, and how to develop effective visualizations from their collected data.
 
 
-- title: Uncovering disinformation in crowdsourced reviews
+- title: Uncovering disinformation in crowdsourced reviews (Dr. Poursardar)
   description: |-
     Description Online platforms lay an important role in our daily life. Before you buy a product on Amazon, you look at the rating of that product, read the reviews and pay attention 
     to what people said about that product. When you want to go out for a dinner, you read the reviews n that restaurant before you make the decision which restaurant you are willing to choose. 
