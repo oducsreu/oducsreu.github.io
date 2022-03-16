@@ -1,7 +1,7 @@
 - name: Dr. Sampath Jayarathna
   about: >-
     Dr. Sampath Jayarathna (PI) has been an advisor to 16 undergraduate students (including five females, one African American, and two Hispanic) and has co-authored five journal papers, and nine conference papers (won a best paper award) with them. He recently completed two grant projects from the Virginia Space Grant Consortium to offer a two-week summer research camp to 24 South Hampton Roads high school students (including 8 females), and three-day professional development workshop for 16 Hampton Roads secondary school teachers. Dr. Jayarathna's recently awarded CAREER project includes a program to support summer research camp for local high school students.
-  designation: Assistant Professor
+  designation: REU Site Director
   affiliation: Computer Science, Old Dominion University
   expertise: Data Science, Eye Tracking, Human Computer Interraction, Information Retrieval, Machine Learning
   email: sampath@cs.odu.edu
@@ -11,7 +11,7 @@
 - name: Dr. Jian Wu
   about: >-
     Dr. Jian Wu (Co -PI) has mentored 10 undergraduate students and published 8 papers in peer-reviewed conferences. Notable students include Lichi Li (PSU) who studied information extraction from scholarly papers, Huaiyu (David) Yang (Vanderbilt), who was supported by an NSF REU grant and coauthored 2 papers in the SIGMOD-SBD workshop and ACM K-CAP'15, Jason Killian (PSU) who designed the PDFMEF system that is still in use, Allen C. Ge (PSU), who published 2 papers on entity matching, Jianyu Mao (PSU), who studied machine learning models for text classification, Bradley Dash (ODU) who studied scientific fake news , and Gunnar Reiske (ODU) who studied entity recognition. Dr. Wu has supervised two undergraduate students supported by the Program for Undergraduate Research and Scholarship seed grant from ODU.
-  designation: Assistant Professor
+  designation: REU Site Assistant Director
   affiliation: Computer Science, Old Dominion University
   expertise: Natural Language Processing, Scholarly Big Data, Information Retrieval, Data Mining
   email: jwu@cs.odu.edu
@@ -21,7 +21,6 @@
 - name: Dr. Michele C. Weigle
   about: >-
     Dr. Michele C. Weigle has mentored 13 undergraduates through NSF grants and REU supplements in the area of network simulation and wireless sensor networks, resulting in two publications with undergraduate co-authors. Five of the students continued to graduate work, including two who continued to PhD study (Univ. of Virginia, ODU). Dr. Weigle also mentored two undergraduates on an NEH-funded research project. Both students continued and earned MS degrees from ODU. She serves as the faculty advisor to ODU's ACM-W chapter and recently served as the Graduate Program Director for the Department of Computer Science.
-  designation: Professor
   affiliation: Computer Science, Old Dominion University
   expertise: Web Science, Data Visualization, social Media
   email: mweigle@cs.odu.edu
@@ -31,7 +30,6 @@
 - name: Dr. Michael L. Nelson
   about: >-
     Dr. Michael L. Nelson is a first generation college graduate. To date, he has successfully recruited four undergraduates into the Computer Science graduate program, published four papers with undergraduates, and has recently (co-)developed two relevant undergraduate courses: CS/CYSE/PHIL 202G "Information Literacy for Cybersecurity", and CS 395 "Research Methods in Data and Web Science", a course to inform undergraduate juniors and seniors about graduate school and research.
-  designation: Professor
   affiliation: Computer Science, Virginia Modeling, Analysis & Simulation Center (VMASC), Old Dominion University
   expertise: Digital Libraries, Web Archiving, Web Science, Data Science, social Media
   email: mln@cs.odu.edu
@@ -41,7 +39,6 @@
 - name: Dr. Erika Frydenlund
   about: >-
     Dr. Erika Frydenlund led an international multidisciplinary team to win first place in a Data4Refugees challenge, using Twitter and mobile phone data to understand violence against Syrian refugees in Turkey. She has mentored four undergraduate students at ODU, William and Mary, and the University of South Dakota. One student, Carrie Parsons (ODU) co-authored two conference papers; another, Elena Freeman (USD) is working on a co-authored publication. Dr. Frydenlund was as an organizer for the ODU Early Engineering Advantage Program (EEAP) for incoming freshmen women in STEM.
-  designation: Research Assistant Professor
   affiliation: Virginia Modeling, Analysis & Simulation Center (VMASC), Old Dominion University
   expertise: Agent-based Modeling, Refugees, Forced Migration
   email: efrydenl@odu.edu
@@ -52,7 +49,6 @@
 - name: Dr. Anne Perrotti
   about: >-
     Dr. Anne Perrotti uses an interprofessional approach, community partnerships, eye-tracking technology, and the principles of self-regulated learning to develop and design learning solutions for marginalized young adults. Dr. Perrotti has served as a faculty mentor for first generation students, designed and organized an undergraduate mentoring program tailored for speech/language pathology students, and consistently mentored undergraduate students through data collection, data analysis, article drafting, and article publication. One student, Victor Lugo, co-authored two conference presentations and one article, and is now a PhD student at Florida State University.
-  designation: Associate Professor
   affiliation: Communication Disorders & Special Education, Old Dominion University
   expertise: Eye Tracking, Adult Learning
   email: aperrott@odu.edu
@@ -62,7 +58,6 @@
 - name: Dr. Vikas G. Ashok 
   about: >-
     Dr. Vikas G. Ashok has mentored six undergraduate students at Stony Brook University in research projects involving health informatics and Natural Language Processing. One project generated a physician attribution software that is currently in use at the Stony Brook Hospital.
-  designation: Assistant Professor
   affiliation: Computer Science, Old Dominion University
   expertise: Accessible Computing, Human Computer Interraction, Natural Language Processing
   email: vganjigu@cs.odu.edu
@@ -72,7 +67,6 @@
 - name: Dr. Faryaneh Poursardar
   about: >-
     Dr. Faryaneh Poursardar has mentored one senior student, Yash Jian ,at Virginia Tech, one female sophomore student, Julia Bandurco, at Christopher Newport University, and has experiences of mentoring one NSF REU student, Michael Smith, during her graduate studies.
-  designation: Lecturer
   affiliation: Computer Science, Old Dominion University
   expertise: Human Computer Interraction, Digital Libraries, Information Retrieval, Data Mining
   email: poursardar@cs.odu.edu
