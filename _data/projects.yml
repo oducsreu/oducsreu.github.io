@@ -24,7 +24,9 @@
     etc. As a consequence, blind users are more susceptible to online scams and attacks, as they are more likely to navigate to untrustworthy websites,
     and download and install malicious software. Currently, no accessibility solution exists that can detect and alert blind users about deceptive content in webpages.
 
-    <img style="width:300;height:200px; float: left; margin-right: 10px;" src="assets/projects/Picture 3.png">
+    <div class="img-card" style="width:min(400px,100%);">
+      <img src="assets/projects/Picture 3.png">
+    </div>
 
     In this project, students will develop novel interactive systems that leverage artificial intelligence (AI) based solutions to assist blind users in
     identifying and circumventing deceptive content. Towards this, the students will first conduct contextual inquiries to understand in-depth the susceptibility of
@@ -66,9 +68,10 @@
     The research-to-practice pipeline is crucial to advance theory, inform treatment protocols, and identify public health solutions. The internet, digital technology,
     and social media have significantly changed how peer-reviewed empirical data is shared, publicized, and utilized. Changes in how health and science information is
     communicated to the public has had both negative and positive outcomes.
-
-    <img style="width:300;height:200px; float: left; margin-right: 10px;" src="assets/projects/Kristin-Lord-Katya-Vogt-disinformation.jpg">
-
+    <div class="img-card" style="width: min(400px,100%);">
+      <img src="assets/projects/Kristin-Lord-Katya-Vogt-disinformation.jpg"><br/>
+      <small><strong>Source: <a href="https://ssir.org/articles/entry/strengthen_media_literacy_to_win_the_fight_against_misinformation">https://ssir.org</a></strong></small>
+    </div>
     The immediacy and availability of important scientific results can empower and engage specific patient populations through support and improved patient-physician
     relationships. However, social media platforms have introduced far-reaching dissemination and rapid influence of fake news to a degree higher than verifiable news
     creating unique challenges for helping professions. These challenges include clarifying false rumors about disease outbreaks and vaccine safety responding to
@@ -81,8 +84,6 @@
     Students will develop measures of transmission of medical disinformation on digital platforms and use computerized analytics to quantify the impact on college student’s decision making.
     Students will identify messaging and transmission of health-related information (i.e., regarding medical, mental, or physical health) across a variety of social media platforms.
     Students will learn to evaluate and define interprofessional themes and terminology, apply data extraction methods across a variety of social platforms, and analyze quantitative and qualitative data for themes and significant outcomes.
-
-    <small>Image Citation: <a href="https://ssir.org/articles/entry/strengthen_media_literacy_to_win_the_fight_against_misinformation">https://ssir.org/articles/entry/strengthen_media_literacy_to_win_the_fight_against_misinformation</a> </small>
   image: assets/projects/Kristin-Lord-Katya-Vogt-disinformation.jpg
 
 - title: Human judgement during interactions with fake articles (Dr. Jayarathna)
@@ -113,13 +114,15 @@
     Nowadays, people are using laptops or mobile devices for many daily activities. Reading news via Facebook, Instagram, Twitters occupies the bulk of the screen time.
     Statistics indicate that 62% of U.S. adults were exposed to news on social media in 2016 as opposed to only 49% in 2012. However, public digital media can often mix factual
     information with fake scientific news, which is typically difficult to pinpoint, especially for non-professionals. One example is the article posted on NatureNews.com titled
-    “Don’t Look Now, But Arctic Sea Ice Mass Has Grown Almost 40% Since 2012” (see the figure below), which attempts to cast doubt on the scientific veracity of global warming.
+    “Don't Look Now, But Arctic Sea Ice Mass Has Grown Almost 40% Since 2012” (see the figure below), which attempts to cast doubt on the scientific veracity of global warming.
     The original news was archived at <a href="http://archive.is/rd294">http://archive.is/rd294</a>. These scientific news articles create illusions, misconceptions and ultimately influence the public opinion with
     serious consequences even at a much broader, societal scale. Many peer-reviewed papers have been published, providing evidence to refute the opinions and justifications in the
     fake news above. Most fact-checking services such as <a href="snopes.com">snopes.com</a>, trace provenance through laborious, fully manual web browsing, and cross-verification procedures. The existing
     solutions aimed at automatically verifying the credibility of news articles are still unsatisfactory.
 
-    <img style="width:500;height:300px; float: left; margin-right: 10px;" src="assets/projects/Picture 2.png">
+    <div class="img-card" style="width:min(400px,100%);">
+      <img src="assets/projects/Picture 2.png">
+    </div>
 
     In this project, students will investigate computational methods to automatically find evidence of scientific disinformation from a large collection of scientific publications.
     The goal is to find an effective model to recommend the most relevant scientific articles that helps readers to better assess the credibility of scientific news, and locate the
@@ -139,8 +142,12 @@
     Metadata about social media accounts (e.g., follower counts) and posts (e.g., likes, shares) has been used to identify potential sources of disinformation. Twitter has been well-studied,
     but other platforms, specifically Instagram, have been shown to also be effective targets of disinformation campaigns, as pictured below.
 
-    <img style="width:300px;height:200px; float: left; margin-right: 10px;" src="assets/projects/Picture 1.png">
-    <small> Image credit: Center for Countering Digital Hate (CCDH), "Malgorithm: How Instagram's algorithm publishes misinformation and hate to millions during a pandemic", March 2021, <a href="https://www.counterhate.com/malgorithm">https://www.counterhate.com/malgorithm</a></small>
+    <div class="img-card" style="width:min(400px,100%);">
+      <img src="assets/projects/Picture 1.png"><br/>
+      <small>
+        <strong>Source: <a href="https://www.counterhate.com/malgorithm">Malgorithm | Center for Countering Digital Hate</a></strong><br/>
+      </small>
+    </div>
 
     Students will investigate disinformation campaigns on Instagram and develop methods for accessing and analyzing historical metadata of Instagram accounts and posts using web archives.
     Providing this metadata to users will help them become more discerning consumers of information shared on social media. We have a current graduate student who has begun an
@@ -166,11 +173,13 @@
     Crowdsourcing websites use Internet to hire and involve individuals remotely located to perform on-demand tasks. Businesses usually post jobs known as Human Intelligence Tasks (HITs), such as a survey,
     identifying specific content in an image or video, writing product descriptions, answering questions, writing a (good) review for a product to promote it, like/vote for a video on YouTube.
     Workers known as crowdworkers browse the existing jobs, complete them and get paid for a rate set by the employer. The nature of the job helps crowdworkers to work remotely and get paid.
-    The last two examples of crowdsourced jobs – provide a review for a product or service and vote for a video- could be used for the purpose of creating disinformation and/or fraudulent reviews in online platforms.
+    The last two examples of crowdsourced jobs - provide a review for a product or service and vote for a video- could be used for the purpose of creating disinformation and/or fraudulent reviews in online platforms.
 
     For example, the following figure shows two examples of fraudulent job descriptions on Rapid Workers.
 
-    <img style="width:500;height:300px;" src="assets/projects/Rapid_workers_activity_box.png">
+    <div class="img-card" style="width:min(400px,100%);">
+      <img src="assets/projects/Rapid_workers_activity_box.png">
+    </div>
 
     Detecting fraudulent reviews and review writers directed from crowdsourced results is vital and should be considered as a way to protect online communities.
 
