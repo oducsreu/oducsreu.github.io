@@ -1,67 +1,55 @@
 ---
 layout: default
 ---
-<table>
-    <tr>
-        <td width="170px" style="border: hidden;">
-            <img style="width:170px;object-fit:cover;" src="assets/logo.png">
-        </td>
-        <td width="auto" style="border: hidden; text-align: right; ">
-            <span style="font-size:23pt; font-weight: bold;">
-                REU Site: Research Experiences for Undergraduates in Disinformation Detection and Analytics
-            </span>
-        </td>
-    </tr>
+<table style="margin: 0;">
+  <tr>
+    <td width="170px" style="border: hidden;">
+      <img style="width:170px;object-fit:cover;" src="assets/logo.png">
+    </td>
+    <td width="auto" style="border: hidden; text-align: right; ">
+      <span style="font-size:23pt; font-weight: bold;">
+        REU Site: Research Experiences for Undergraduates in Disinformation Detection and Analytics
+      </span>
+    </td>
+  </tr>
 </table>
-<table>
-    <tr>
-        <td style="border: hidden; text-align: center">
-            <div style="padding: 0.5em;">
-                <h2 style="font-size: 16pt;">
-                    <strong>REU Summer 2022 Schedule : June 06, 2022 – August 05, 2022</strong>
-                </h2>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td style="border: hidden; text-align: center; background-color:transparent">
-            <div>
-                <h2 style="font-size: 14pt; font-weight: bold;">How to Apply?</h2>
-                <p>
-                    Use Application Form at: <a href="https://www.nsfetap.org/applicant/opportunity/24895/registration">https://www.nsfetap.org</a>.
-                    <br/>
-                    <i>* You may need to create an account to apply for the REU program</i>
-                </p>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td style="border: hidden; text-align: center;">
-            <div>
-                <!-- <img src="assets/odu-image.jpg"> -->
-                <img src="assets/flyer.png">
-            </div>
-        </td>
-    </tr>
+<table style="margin: 0;">
+  <tr>
+    <td style="border: hidden; text-align: center; background-color: #f9f9f9; padding: 0.5em;">
+      <h2 style="font-size: 16pt;"><strong>Summer 2022 Schedule: <br />June 06, 2022 - August 05, 2022</strong></h2>
+      <a class="apply-button" target="_blank"
+        href="https://www.nsfetap.org/applicant/opportunity/24895/registration">Apply Now</a>
+      <br />
+      <i>(You may need to create a NSF ETAP account to apply for the REU program)</i>
+    </td>
+  </tr>
 </table>
-<table>
-    <tr>
-        <td style="border: hidden; text-align: justify">
-            <div style="padding: 0.5em;">
-                <p> {{ site.data.info.description_1 }} </p>
-                <p> {{ site.data.info.description_2 }} </p>
-                <ol>
-                {% for objective in site.data.info.objective_list %}
-                <li> {{ objective.objective }}</li>
-                    {% endfor %}
-                </ol>
-                <p> {{ site.data.info.goal }} </p>
-            </div>
-        </td>
-    </tr>
+<table style="margin: 0;">
+  <tr>
+    <td style="border: hidden; text-align: center; padding: 0;">
+      <div>
+        <!-- <img src="assets/odu-image.jpg"> -->
+        <img src="assets/flyer.png">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: hidden; text-align: justify">
+      <div style="padding: 0.5em;">
+        <p> {{ site.data.info.description_1 }} </p>
+        <p> {{ site.data.info.description_2 }} </p>
+        <ol>
+          {% for objective in site.data.info.objective_list %}
+          <li> {{ objective.objective }}</li>
+          {% endfor %}
+        </ol>
+        <p> {{ site.data.info.goal }} </p>
+      </div>
+    </td>
+  </tr>
 </table>
 
-<p>Funded by <img style="width:50px;height:50px;"  src="assets/nsf-logo.png">  NSF CISE REU Site Award #2149607</p>
+<p>Funded by <img style="width:50px;height:50px;" src="assets/nsf-logo.png"> NSF CISE REU Site Award #2149607</p>
 <!-- <table>
   <tr>
     <td style="display: flex; align-items: flex-start; padding-bottom: 1em;">
