@@ -107,7 +107,7 @@
 
     Students will develop experimental designs using eye tracking techniques to investigate how individuals assess the credibility of information, how they evaluate 
     whether an information source is trustworthy, and how they identify and respond to disinformation. Students will learn how to process raw eye gaze data streamed 
-    from the eye tracker to our eye movements analytic pipeline to generate the traditional positional gaze and complex pupillometry measurements.
+    from the eye tracker to our eye movements analytic pipeline to generate the traditional positional gaze and complex pupillometry measurements, and develop various machine learning models.
 
 
 - title: Spot bogus science stories and read news like a scientist (Dr. Wu)
