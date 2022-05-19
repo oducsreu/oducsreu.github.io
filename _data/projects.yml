@@ -97,9 +97,11 @@
     The main goal of this project is to analyze unconstrained reading patterns of digital documents using eye movement fixations and dwell time on various sections of a 
     digital document. We will focus on limiting false-positive key point matching between the on-screen content and a scientific paper content. This particularly useful 
     when assessing the unconstrained reading patterns with less distinctive features such as images, charts, and tables.
-
+    <div class="img-card" style="width:min(400px,100%);">
+      <img src="assets/projects/eye_tracking.png">
+    </div>
     The goal of this research project is to use eye tracking techniques to record eye movement activities during reading tasks, study reading patterns of participants, 
-    investigate feature set to identify objective measurements to assess engagement with fake scientific articles. 
+    investigate feature set and machine learning methods to identify direct measurements to assess engagement with fake scientific articles. 
 
     ***Student Learning Outcomes:***
 
