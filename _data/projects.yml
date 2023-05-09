@@ -153,9 +153,11 @@
 
     Students will investigate disinformation campaigns on Instagram and develop methods for accessing and analyzing historical metadata of Instagram accounts and posts using web archives.
     Providing this metadata to users will help them become more discerning consumers of information shared on social media. We have a current graduate student who has begun an
-    <a href="https://ws-dl.blogspot.com/2020/11/2020-11-04-how-well-is-instagram.html">investigation of how well Instagram pages are covered in public web archives.</a> Students on this project would be extending this work, focusing on accounts and posts disseminating disinformation.
-
-    The objective of this project is to develop methods for gathering and providing important metadata about potential sources of disinformation to Instagram users. The techniques
+    <a href="https://ws-dl.blogspot.com/2020/11/2020-11-04-how-well-is-instagram.html">investigation of how well Instagram pages are covered in public web archives</a>, and our 
+    2022 REU student studied how well Instagram account pages of members of the Disinformation Dozen had been archived (<a href="https://arxiv.org/abs/2301.09188">project report at arXiv</a>, 
+    <a href="https://www.cs.odu.edu/~mweigle/papers/bragg-jcdl2023-preprint.pdf">JCDL 2023 paper</a>).
+    
+    Students on this project would be extending this work, focusing on accounts and posts disseminating disinformation. The objective of this project is to develop methods for gathering and providing important metadata about potential sources of disinformation to Instagram users. The techniques
     developed can also be applied to other social media platforms to provide support for other projects at this REU Site.
 
     ***Student Learning Outcomes:***
