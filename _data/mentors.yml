@@ -1,8 +1,10 @@
 - name: Dr. Jian Wu
   about: >-
     Dr. Jian Wu (PI) is an Associate Professor of Computer Science. He was the Co-PI of the previous REU Site. His research interests are NLP, scholarly big data, information retrieval, and digital libraries. He has published 90+ peer-reviewed papers in ACM, IEEE, and AAAI conferences and journals. He has mentored 30 undergraduate students from ODU and other universities since 2012 and published 15+ peer-reviewed papers in professional conferences and journals. Notable students include Huaiyu (David) Yang (Vanderbilt U.), supported by REU Supplement and co-authored 2 papers, Stefania Dzhaman (Lehigh U.), supported by REU Site and presented at the NCUR 2024, and Dominik Soós (ODU), who is now a Ph.D. student. Dr. Wu won the ODU Provost Outstanding Undergraduate Research Mentor in 2022.
-  designation: Graduate Program Director, School of Data Science
-  affiliation: Computer Science
+  titles:
+    - "Associate Professor, Computer Science"
+    - "Graduate Program Director, Data Science"
+    - "Old Dominion University"
   expertise: Natural Language Processing, Scholarly Big Data, Information Retrieval, Data Mining
   email: jwu@cs.odu.edu
   homepage: https://www.cs.odu.edu/~jwu/
@@ -11,8 +13,8 @@
 - name: Dr. Vikas G. Ashok
   about: >-
     Dr. Vikas Ashok (Co-PI) is an Associate Professor of Computer Science. He served as a mentor supervising undergraduate students in research projects for the prior REU site program. His expertise is in the field of Human-Centered AI, where he has designed and developed numerous intelligent interactive systems for people with disabilities to conveniently interact with computers and smartphones. His works have been published in top-tier venues such as ACM CHI, UIST, IUI, and CSCW. He has also previously supervised high school students in research projects.
-  designation: Associate Professor
-  affiliation: Computer Science
+  titles:
+    - "Associate Professor, Computer Science"
   expertise: Accessible Computing, Human-Computer Interaction, Natural Language Processing
   email: vganjigu@cs.odu.edu
   homepage: https://www.cs.odu.edu/~vashok/
@@ -21,8 +23,9 @@
 - name: Dr. Sampath Jayarathna
   about: >-
     Dr. Sampath Jayarathna is an Associate Professor of Computer Science with a distinguished record in undergraduate mentorship and collaborative research. He has advised 56 undergraduate students, co-authored 21 peer-reviewed publications with them, and received multiple best paper awards in recognition of this collaborative work. His notable REU mentees include James Owens, currently a Ph.D. student at ODU and an intern at NASA Langley Research Center, and Yoman Elmousalami, a current M.S. student at ODU and also an intern at NASA Langley. Dr. Jayarathna was honored with the Provost's Award for Outstanding Undergraduate Research Mentor in 2023 and the A. Rufus Tonelson '33 Faculty Award in 2025. His research interests span neuro-information retrieval, data science, human-computer interaction, eye tracking, and digital libraries.
-  designation: Assistant Dean of the Perry Honors College & Associate Professor of Computer Science
-  affiliation: Computer Science
+  titles:
+    - "Associate Professor, Computer Science"
+    - "Assistant Dean of the Perry Honors College"
   expertise: Data Science, Eye Tracking, Human-Computer Interaction, Information Retrieval, Machine Learning
   email: sampath@cs.odu.edu
   homepage: https://www.cs.odu.edu/~sampath/
@@ -31,8 +34,8 @@
 - name: Dr. Heqiao (Ivy) Wang
   about: >-
     Dr. Heqiao (Ivy) Wang is an Assistant Professor of AI in Special Education. Her research interest focuses on leveraging data science and AI to investigate the complex learning processes and the dynamic interplay between language skills, literacy development, knowledge application, motivational beliefs, thinking cognition, and learning strategies. Dr. Wang has mentored 4 undergraduate honors students, and guided them through the completion of their honors projects. She published 7 papers in peer-reviewed professional conferences and journals.
-  designation: Assistant Professor
-  affiliation: Human Movement Studies & Special Education
+  titles:
+    - "Assistant Professor, Human Movement Studies & Special Education"
   expertise: AI in Education, Learning Science
   email: h3wang@odu.edu
   homepage: https://www.odu.edu/directory/heqiao-wang
@@ -41,8 +44,9 @@
 - name: Dr. Ginger Watson
   about: >-
     Dr. Ginger Watson is a Professor and Director of Health, Education, AI, and Learning (HEAL) at VMASC at ODU. Her research interests are focused on the design, development, integration, evaluation, and validation of intelligent instructional and digital performance support systems to improve human cognition, learning, and performance. She has mentored 10+ undergraduate, 70+ graduate, and 3 post-doctoral students completing projects, fellowships, internships, theses, and dissertations over the past 30 years. She has authored over 50 peer-reviewed papers with students or post-docs as primary or contributing authors.
-  designation: Research Professor, Technical Director, Health, Education, and AI Learning (HEAL)
-  affiliation: Virginia Modeling, Analysis & Simulation Center (VMASC)
+  titles:
+    - "Research Professor, Virginia Modeling, Analysis & Simulation Center (VMASC)"
+    - "Technical Director, Health, Education, and AI Learning (HEAL)"
   expertise: Instructional Design & Technology, AI in Learning
   email: gswatson@odu.edu
   homepage: https://oduinnovate.org/staff/dr-ginger-watson/
@@ -51,8 +55,8 @@
 - name: Dr. Pratip Rana
   about: >-
     Dr. Pratip Rana is an Assistant Professor in the Computer Science department. His research interests include machine learning, computational biology, and health informatics. Dr. Rana is currently mentoring one undergraduate student who is working on machine learning applications on multi-omics data. Previously, as a graduate student at Virginia Commonwealth University, Dr. Rana mentored five undergraduate students and two high school students and published two research papers with them. Notable students include Dusan Djordjevic and Yug Rao, who won the Intel Excellence in Computer Science Award and 1st place in the Virginia Junior Academy of Science (VJAS) Fair under his mentorship.
-  designation: Assistant Professor
-  affiliation: Computer Science
+  titles:
+    - "Assistant Professor, Computer Science"
   expertise: Computational Biology, Complex Systems
   email: prana@odu.edu
   homepage: https://www.odu.edu/directory/pratip-rana
@@ -61,8 +65,9 @@
 - name: Dr. Michael L. Nelson
   about: >-
     Dr. Michael L. Nelson is a first generation college graduate and a Professor of Computer Science at ODU and VMASC, where he co-leads the WS-DL research group. To date, he has successfully recruited five undergraduates into the ODU CS graduate program, published six papers with undergraduates, and designed and taught CS 395 "Research Methods in Data and Web Science", a new course designed to attract undergraduate juniors into graduate school. In addition to teaching basic scholarship and presentation skills in this class, students collaboratively wrote research papers and prepared and submitted fellowship proposals (we had one proposal funded by the Virginia Space Grant Consortium).
-  designation: Professor, Chief Scientist, Deputy Director & Eminent Scholar
-  affiliation: Virginia Modeling, Analysis & Simulation Center (VMASC)
+  titles:
+    - "Professor, Computer Science"
+    - "Chief Scientist, Deputy Director & Eminent Scholar, Virginia Modeling, Analysis & Simulation Center (VMASC)"
   expertise: Digital Libraries, Web Archiving, Data Science
   email: mln@cs.odu.edu
   homepage: https://www.cs.odu.edu/%7Emln/
@@ -71,8 +76,8 @@
 - name: Dr. Faryaneh Poursardar
   about: >-
     Dr. Faryaneh Poursardar is a Research Assistant Professor at the VMASC at ODU. Her research interests span web and data science, NLP, generative AI, social computing, digital libraries, and applied machine learning. She received the ODU College of Sciences Undergraduate Research Program Award in 2021, as well as funding from the NASA@My Library initiative led by the Space Science Institute to support a cohort of undergraduate students in developing STEM education activities. Dr. Poursardar has mentored students from multiple institutions, including ODU, Virginia Tech, Christopher Newport University (CNU), and Texas A&M University, through various undergraduate research programs, such as the NSF REU. Since 2021, she has mentored six undergraduate students, leading to four peer-reviewed conference publications.
-  designation: Research Assistant Professor
-  affiliation: Virginia Modeling, Analysis & Simulation Center (VMASC)
+  titles:
+    - "Research Assistant Professor, Virginia Modeling, Analysis & Simulation Center (VMASC)"
   expertise: Social Computing, Web Science, Digital Libraries, Human-Computer Interaction, Applied Machine Learning
   email: poursardar@cs.odu.edu
   homepage: https://www.odu.edu/directory/people/f/fpoursar

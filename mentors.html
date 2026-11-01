@@ -16,8 +16,7 @@ title: Mentors
       <div style="padding: 0.5em;">
         <!-- <div style="font-size: 1.5em;">{{ mentor.name }}</div> -->
         {% if mentor.homepage %}<a href={{ mentor.homepage }}>{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}
-        <div style="font-size: 1em;">{{ mentor.designation }}</div>
-        <div style="font-size: 1em;">{{ mentor.affiliation }}</div>
+        {% for t in mentor.titles %}<div style="font-size: 1em;">{{ t }}</div>{% endfor %}
         {% if mentor.email %}<a href="mailto:{{ mentor.email }}">{{ mentor.email }}</a>{% endif %}
 <!--        <div style="font-size: 1em;"></div>-->
       </div>

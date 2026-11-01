@@ -1,11 +1,14 @@
 - name: Dr. Jian Wu
-  designation: Graduate Program Director, School of Data Science
-  affiliation: Computer Science, Old Dominion University
+  titles:
+    - "Associate Professor, Computer Science"
+    - "Graduate Program Director, Data Science"
+    - "Old Dominion University"
   email: jwu@cs.odu.edu
   homepage: https://www.cs.odu.edu/~jwu/
 
 - name: Dr. Vikas G. Ashok
-  designation: Associate Professor
-  affiliation: Computer Science, Old Dominion University
+  titles:
+    - "Associate Professor, Computer Science"
+    - "Old Dominion University"
   email: vganjigu@cs.odu.edu
   homepage: https://www.cs.odu.edu/~vashok/
