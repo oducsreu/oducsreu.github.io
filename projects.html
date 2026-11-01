@@ -5,7 +5,7 @@ title: Projects
 <ul>
   {% for project in site.data.projects %}
   <li>
-    <a href="#{{ project.title | slugify }}">{{ project.title }}</a>
+    <a href="#{{ project.title | slugify }}">{{ project.title }}</a>{% if project.mentor %} ({{ project.mentor }}){% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -15,7 +15,7 @@ title: Projects
   <tbody>
     <tr class="header">
       <td>
-        <strong id="{{ project.title | slugify }}">{{ project.title }}</strong>
+        <strong id="{{ project.title | slugify }}">{{ project.title }}{% if project.mentor %} (<a href="{{ project.mentor_url }}" target="_blank">{{ project.mentor }}</a>){% endif %}</strong>
         <!-- <a ><strong>{{ project.title }}</strong></a> -->
         <!-- <span style="font-weight: 400;"><small>({{ project.term }})</small></span> -->
         <br />

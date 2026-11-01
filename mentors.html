@@ -6,15 +6,19 @@ title: Mentors
 <table>
   <tr>
     <td width="120px" style="border-right: hidden;">
+      {% if mentor.image %}
       <img style="width:120px;height:150px;object-fit:cover;object-position:50%-10%" src="{{ mentor.image | relative_url }}">
+      {% else %}
+      <div style="width:120px;height:150px;background:#ddd;"></div>
+      {% endif %}
     </td>
     <td width="auto">
       <div style="padding: 0.5em;">
         <!-- <div style="font-size: 1.5em;">{{ mentor.name }}</div> -->
-        <a href={{ mentor.homepage }}>{{ mentor.name }}</a>
+        {% if mentor.homepage %}<a href={{ mentor.homepage }}>{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}
         <div style="font-size: 1em;">{{ mentor.designation }}</div>
         <div style="font-size: 1em;">{{ mentor.affiliation }}</div>
-        <a href="mailto:{{ mentor.email }}">{{ mentor.email }}</a>
+        {% if mentor.email %}<a href="mailto:{{ mentor.email }}">{{ mentor.email }}</a>{% endif %}
 <!--        <div style="font-size: 1em;"></div>-->
       </div>
     </td>
