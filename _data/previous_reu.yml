@@ -1,0 +1,84 @@
+years: "2022-2026"
+theme: Disinformation Detection and Analytics
+
+attendees:
+  - year: 2022
+    students:
+      - "Haley Bragg"
+      - "Danielle “Dani” Graber"
+      - "Autumn Woodson"
+      - "Caleb Bradford"
+      - "Ethan Landers"
+      - "Isabelle Valdes"
+      - "Michael Husk III"
+      - "Anna “Ash” Dobrenen"
+  - year: 2023
+    students:
+      - "Yixuan Cheng"
+      - "Christopher Martin"
+      - "Michael Evans"
+      - "Johnovon Richards"
+      - "Isabelle Njunda Puwo"
+      - "Parker Story"
+      - "Rachel Zheng"
+  - year: 2024
+    students:
+      - "Ashlyn Farris"
+      - "Stefania Dzhama"
+      - "Matthew Maisonave"
+      - "Caoilainn (kay-lynn) Christensen"
+      - "Kevin Cauchi"
+      - "Jessica Melton"
+      - "Leah Prince"
+      - "Emily Ebalo"
+  - year: 2025
+    students:
+      - "Benjamin Curtis"
+      - "Isaiah Gamble"
+      - "Sophia Winfield"
+  - year: 2026
+    students:
+      - "Jannah Elmousalami"
+      - "Emanuel Yasir Nelson"
+      - "Dechawn Baker"
+      - "Gabriel Vega Osborne"
+      - "Dusan Djordjevic"
+
+# REU students are wrapped in <strong>
+publications:
+  - citation: "<strong>Farris, A. M.</strong> and Nelson, M. L., “Categorizing Social Media Screenshots for Identifying Author Misattribution”, arXiv e-prints, Art. no. arXiv:2410.06443, 2024. doi:10.48550/arXiv.2410.06443."
+    url: "https://arxiv.org/abs/2410.06443"
+  - citation: "<strong>Bradford, C.</strong> and Nelson, M. L., “Did They Really Tweet That? Querying Fact-Checking Sites and Politwoops to Determine Tweet Misattribution”, arXiv e-prints, Art. no. arXiv:2211.09681, 2022. doi:10.48550/arXiv.2211.09681."
+    url: "https://arxiv.org/abs/2211.09681"
+  - citation: "<strong>H. Bragg</strong>, H. R. Jayanetti, M. L. Nelson and M. C. Weigle, \"Less than 4% of Archived Instagram Account Pages for the Disinformation Dozen are Replayable,\" 2023 ACM/IEEE Joint Conference on Digital Libraries (JCDL), Santa Fe, NM, USA, 2023, pp. 102-106, doi: 10.1109/JCDL57899.2023.00025"
+    url: "https://ieeexplore.ieee.org/document/10266021"
+  - citation: "<strong>Zheng, R.</strong> and Weigle, M. C., “Examining the Challenges in Archiving Instagram”, arXiv e-prints, Art. no. arXiv:2401.02029, 2024. doi:10.48550/arXiv.2401.02029."
+    url: "https://arxiv.org/abs/2401.02029"
+  - citation: "<strong>L. Prince</strong>, \"Examining engagement with disinformation accounts on Instagram using web archives,\" Old Dominion University, REU Final Report, 2024."
+    url: "https://www.cs.odu.edu/~mweigle/papers/prince-REU2024.pdf"
+  - citation: "<strong>M. Evans</strong>, D. Soós, <strong>E. Landers</strong>, and J. Wu, \"MSVEC: A multidomain testing dataset for scientific claim verification,\" in <em>MobiHoc '23: Proceedings of the Twenty-Fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing</em>, Oct. 2023, pp. 504–509. doi: 10.1145/3565287.3617630."
+    url: "https://dl.acm.org/doi/10.1145/3565287.3617630"
+  - citation: "<strong>S. Dzhaman, M. Maisonave</strong>, and J. Wu, \"Toward open domain scientific claim verification: Baseline results using GPT-3.5,\" presented at the National Conference on Undergraduate Research (NCUR 2025), Pittsburgh, PA, USA, Apr. 2025."
+    url: "https://www.cur.org/wp-content/uploads/2025/06/NCUR-2025-Proceedings.pdf"
+  - citation: "K. Ajayi, Y. He, <strong>M. Maisonave</strong>, K. SeekFord, and J. Wu, \"SciTableQA: A question-answering benchmark for complex scientific tables,\" in <em>Linking Theory and Practice of Digital Libraries (TPDL 2025)</em>, Springer-Verlag, 2025, pp. 90–107. doi: 10.1007/978-3-032-05409-8_7."
+    url: "https://dl.acm.org/doi/10.1007/978-3-032-05409-8_7"
+  - citation: "<strong>M. Evans</strong>, D. Soós, <strong>E. Landers</strong>, and J. Wu, \"The potential of large language models in evaluating scientific claims,\" presented at the ODU Undergraduate Research Symposium, Norfolk, VA, USA, Mar. 30, 2024. [Online]. Available: https://digitalcommons.odu.edu/undergradsymposium/2024/sciences/11/"
+    url: "https://digitalcommons.odu.edu/undergradsymposium/2024/sciences/11/"
+  - citation: "<strong>A. Dobrenen</strong>, \"Protecting blind screen-reader users from deceptive content,\" Old Dominion University, REU Final Report, 2022. doi: 10.25776/0pm9-tm66."
+    url: "https://digitalcommons.odu.edu/reu2022_computerscience/4/"
+  - citation: "<strong>K. Pineda</strong>, A. M. Perrotti, F. Poursardar, <strong>D. Graber</strong> and S. Jayarathna, \"Using BERT to Understand TikTok Users’ ADHD Discussion,\" 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 213-214, doi: 10.1109/IRI58017.2023.00043."
+    url: "https://ieeexplore.ieee.org/document/10229379"
+  - citation: "A. M. Perrotti, <strong>I. Puwo</strong>, and S. Jayarathna, \"Exploring TikTok as an educational tool for speech-language pathologists, special education, and general education,\" in MobiHoc '23: Proceedings of the Twenty-Fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing, Oct. 2023, pp. 540–544. doi: 10.1145/3565287.3617636."
+    url: "https://dl.acm.org/doi/10.1145/3565287.3617636"
+  - citation: "<strong>S. Winfield</strong>, \"Legal ambiguity: Impact of communication skills on courtroom experiences for people with neurodevelopment disabilities,\" presented at the Speech-Language-Hearing Association of Virginia (SHAV) Conf., 2025."
+    url: "https://docs.google.com/document/d/1_jiMrg4vLn1-5b2pW0X6Z5AYCSShi3IBMKUwJUZRlTs/edit?tab=t.1164l6z6lzbf"
+  - citation: "<strong>E. Ebalo</strong> and F. Poursardar, \"Comparative Study of ML Techniques for Misinformation Detection in War Reporting,\" in 2024 IEEE International Conference on Big Data (BigData), Washington, DC, USA, 2024, pp. 8650-8652, doi: 10.1109/BigData62323.2024.10825715."
+    url: "https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10825715"
+  - citation: "<strong>J. Richards</strong>, S. Dabhi, F. Poursardar, and S. Jayarathna, \"Poster: Leveraging data analysis and machine learning to authenticate Yelp reviews through user metadata patterns,\" in MobiHoc '23: Proceedings of the Twenty-Fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing, Oct. 2023, pp. 524–528. doi: 10.1145/3565287.3617983."
+    url: "https://dl.acm.org/doi/10.1145/3565287.3617983"
+  - citation: "<strong>M. Husk</strong> and F. Poursardar, \"Fake review detection,\" Old Dominion University, REU Final Report, 2022. doi: 10.25776/cevf-bz28. [Online]. Available: https://digitalcommons.odu.edu/reu2022_computerscience/2/"
+    url: "https://digitalcommons.odu.edu/reu2022_computerscience/2/"
+  - citation: "Y. Abeysinghe, <strong>K. Cauchi</strong>, V. Ashok, and S. Jayarathna, \"Framework for measuring visual attention in gaze-driven VR learning environments using Meta Quest Pro,\" in Proc. 2025 Symp. Eye Track. Res. Appl. (ETRA '25), Tokyo, Japan, 2025, Art. no. 54, pp. 1–3. doi: 10.1145/3715669.3726795."
+    url: "https://dl.acm.org/doi/10.1145/3715669.3726795"
+  - citation: "<strong>B. Curtis, S. Dzhaman, M. Maisonave</strong>, and J. Wu, \"Humans vs. LLMs on open domain scientific claim verification: A baseline study,\" in Proc. 2nd Int. Workshop Artif. Intell. Sci. Sci. (AI4SciSci), Dec. 2025, pp. 1–12. [Online]. Available: https://ceur-ws.org/Vol-4161/paper1.pdf"
+    url: "https://ceur-ws.org/Vol-4161/paper1.pdf"

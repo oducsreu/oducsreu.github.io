@@ -1,0 +1,37 @@
+---
+layout: default
+title: Previous REU Site
+---
+{% assign previous = site.data.previous_reu %}
+<p>
+  <strong>REU {{ previous.years }}</strong> |
+  <a href="#attendees">Attendees</a> |
+  <a href="#publications">Publications and Presentations</a>
+</p>
+
+<p><strong>REU Theme:</strong> {{ previous.theme }}</p>
+
+<h3 id="attendees">Attendees</h3>
+{% for cohort in previous.attendees %}
+<table>
+  <tr>
+    <td>
+      <strong>{{ cohort.year }}</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {{ cohort.students | join: ", " }}
+    </td>
+  </tr>
+</table>
+{% endfor %}
+
+<h3 id="publications">Publications and Presentations</h3>
+<ol>
+  {% for publication in previous.publications %}
+  <li style="margin-bottom: 0.75em; overflow-wrap: anywhere;">
+    <a href="{{ publication.url }}" target="_blank" rel="noopener">{{ publication.citation }}</a>
+  </li>
+  {% endfor %}
+</ol>
